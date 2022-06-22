@@ -1,0 +1,62 @@
+html,
+body {
+     min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial';
+}
+
+svg{
+    background: whitesmoke;
+}
+
+#canvas{
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+
+#leyenda {
+
+/*  border-top: 0;*/
+  min-width: 1000px;
+}
+
+.legend {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: white;
+    font-weight: bold;
+}
+
+.axis
+	  	.axis tick,
+	  	.axis line {
+	      	fill: none;
+	      	stroke: none;
+	  	}
+
+	  	.axis text {
+	      	font-size: 10px;
+	      	fill: #AAAAAA;
+	      	font-weight: 200;
+	  	}
+
+.estado:hover{
+    fill: gray;
+}
